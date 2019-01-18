@@ -33,6 +33,15 @@ a {
 	
 	outline:none!important;
 }
+ul {
+	color:white;
+	word-spacing:1px;
+	line-height:25px;
+	font-size:14px;
+	font-family: 'Open Sans',sans-serif;
+	
+}
+
 a:hover,a:focus,a:active {
 	color:#0D0D0D;
 	text-decoration:none;
@@ -476,16 +485,20 @@ h1.arrow span {
     color: white;
 }
 .color-bg h6::after{
-	border-color: #fff;
+	border-color: black;
 }
 .color-bg .weight-outline-btn {
-    color: white;
-    border-color: white;
+    background-color: white;
+   	opacity: 0.6;
+    border-color: black;
+    border-width: 50px;
+
+
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
-  color: #282200;
-  border-color: none;
+  color: none;
+  border-color: black;
 }
 .about-text {
 	padding:20px 50px 25px 50px;
@@ -653,9 +666,10 @@ img.grayscale:hover {
 }
 #laservid {
 
-	position: center;
+	position: block;
 	min-height: 100%;
 	min-width: 100%;
+	z-index: 0;
 }
 
 #spinnyboi
@@ -663,12 +677,18 @@ img.grayscale:hover {
 	text-shadow: 1px 0px 20px black;
 }
 #firsttext {
-	position: absolute;
+	position:absolute ;
 	text-shadow: 1px 0px 8px black;
+	z-index: 99;
 	
 }
 #laservid:hover {
 	color:black;
+}
+
+#videoBlock {
+	position: relative;
+	overflow: auto;
 }
 .overlay {
 	display:block;
@@ -1027,6 +1047,7 @@ ul.slides li {
 		font-size: 100px;
 		line-height: 80px;
 		margin-top: 65px;
+
 }
 }
 /* 480px (WVGA - Low End Windows Phone) */
@@ -1062,6 +1083,7 @@ ul.slides li {
 	.wp3 {
 		background-position: 50px 0;
 	}
+
 }
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
