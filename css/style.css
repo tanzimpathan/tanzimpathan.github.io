@@ -350,7 +350,8 @@ table {
 	background: url('../img/me.jpg') right bottom no-repeat;
 	background-size: cover;
 	padding:110px 0 100px 0;
-	height:auto;
+	height:100%;
+	width: 100%;
 	background-color: #FBFBFB;
 }
 .hero h1 {
