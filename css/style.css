@@ -353,6 +353,7 @@ table {
 	height:100%;
 	width: 100%;
 	background-color: #FBFBFB;
+	overflow: auto;
 }
 .hero h1 {
 	font-size: 120px;
