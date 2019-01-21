@@ -910,23 +910,8 @@ ul.slides li {
 
 }
 }
-/* 480px (WVGA - Low End Windows Phone) */
-@media screen and (max-width:480px) {
-	.wrapper {
-		background:#f3f5f8;
-		height:640px;
-	}
-	.iphone {
-		display:none;
-	}
-	.fluid-white {
-		display:none;
-	}
-	.wp2,.wp4,.wp5,.light-box {
-		margin-bottom: 30px;
-	}
-}
-/* xGA iPad */
+
+/* iPad */
 @media screen and (max-width:1024px) {
 	.wp3 {
 		background-position:50px 0;
@@ -986,11 +971,6 @@ ul.slides li {
 	    padding-bottom: 0;
 	}
 
-	.subscribe input[type=text] {
-	    width: 50%;
-	    margin-bottom: 30px;
-	}
-
 	.btn-send {
 	    float: none;
 	
@@ -999,17 +979,7 @@ ul.slides li {
 	.effects .img {
     	margin-bottom: 15px;
 	}
-	.show-menu .icon-list a {
-		display: block;
-		width: 100%;
-		float: left;
-		margin-bottom: 10px;
-	}
 
-	.show-menu .menu-wrap {
-		height: 100%;
-	}
-}
 
 
 @media screen and (max-width:991px) {
@@ -1017,7 +987,5 @@ ul.slides li {
     	padding: 0px;
 	}
 
-	.subscribe {
-	    padding-bottom: 40px;
-	}
+
 }
