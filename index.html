@@ -1,8 +1,6 @@
 <!doctype html>
-<html
-xmlns="http://www.w3.org/1999/xhtml"
-		xmlns:og="http://ogp.me/ns#"
-		xmlns:fb="https://www.facebook.com/2008/fbml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+
 <head>
 
 	<meta charset="UTF-8">
@@ -27,13 +25,13 @@ xmlns="http://www.w3.org/1999/xhtml"
 	<link rel="manifest" href="/site.webmanifest">
 
 	<!--facebook og link stuff-->
-	<meta property="og:title" content="tanzim pathan"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://tanzimpathan.github.io/"/>
-    <meta property="og:image:URL" content="https://tanzimpathan.github.io/motiv.png"/>
-    <meta property="og:site_name" content="tanzim pathan"/>
-    <meta property="fb:admins" content="USER_ID"/>
-    <meta property="og:description" content="tanzim pathan. product designer. comedian."/>
+	<meta property="og:title" content="tanzim pathan" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://tanzimpathan.github.io/" />
+	<meta property="og:image:URL" content="https://tanzimpathan.github.io/motiv.png" />
+	<meta property="og:site_name" content="tanzim pathan" />
+	<meta property="fb:admins" content="USER_ID" />
+	<meta property="og:description" content="tanzim pathan. product designer. comedian." />
 
 
 
@@ -218,8 +216,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 
 	<!-- ECE Society -->
 	<div class="popup autoplay" style="width:100%" data-popup-id="90-5">
-		<div class="close"><svg
-				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+		<div class="close"><svg <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
 			</svg></div>
 		<div class="content">
 			<div class="container">
@@ -267,7 +264,8 @@ xmlns="http://www.w3.org/1999/xhtml"
 					<div class="fix-10-12">
 						<div class="popupContent">
 							<img src="planrvideo.gif" />
-							<p style="color:#0d0b18"><br>  • <u>Used Figma</u> to design a travel app that incorporates a tinder-esque discovery element + smart itinerary builder. The idea is that users would input their trip preferences, find a location, input their activity preferences, and then receive a curated itinerary
+							<p style="color:#0d0b18"><br> • <u>Used Figma</u> to design a travel app that incorporates a tinder-esque discovery element + smart itinerary builder. The idea is that users would input their trip preferences, find a location, input
+								their activity preferences, and then receive a curated itinerary
 								<br>• <u>Played with Figmotion</u> loading animations
 								<br>• <u>Designed a brand style guide</u> including colours, logo, and fonts</a>. </p>
 						</div>
@@ -286,35 +284,31 @@ xmlns="http://www.w3.org/1999/xhtml"
 					<div class="fix-7-12">
 						<h1 class="ae-1" style="display:inline">hi, i'm </h1>
 						<h1 style="color:#c18608;display:inline">tanzim</h1>
-						<p class="ae-2"><span class="opacity-8">i'm a computer engineering student @ UWaterloo. i like designing products that are intuitive, user-friendly, and most importantly, have pretty colours. if you have any cool projects or opportunities, get in touch! </span></p>
+						<p class="ae-2"><span class="opacity-8">i'm a computer engineering student @ UWaterloo. i like designing products that are intuitive, user-friendly, and most importantly, have pretty colours. if you have any cool projects or
+								opportunities, get in touch! </span></p>
 
 						<a href="resume.pdf" target="_blank" class="social-btn"><i class="fa fa-file-pdf-o" style="font-size:30px;padding:10px;"></i></a><!-- resume -->
 						<a href="https://www.linkedin.com/in/tanzimp/" target="_blank" class="social-btn"><i class="fa fa-linkedin" style="font-size:30px;padding:10px;"></i></a><!-- linkedin -->
 						<a target="_blank" href="mailto: tanzim.mpathan@gmail.com" class="social-btn"><i class="fa fa-envelope-o" style="font-size:30px;padding:10px;"></i></a>
 						<a href="https://github.com/tanzimpathan" target="_blank" class="social-btn"><i class="fa fa-github" style="font-size:30px;padding:10px;"></i></a>
 
-						<script>
-						var countDownDate = localStorage.getItem('startDate');
-						if (countDownDate) {
-						    countDownDate = new Date(countDownDate);
-						} else {
-						    countDownDate = new Date();
-						    localStorage.setItem('startDate', countDownDate);
-						}
-						// Update the count down every 1 second
-						var x = setInterval(function() {
-						    // Get todays date and time
-						    var now = new Date().getTime();
-						    // Find the distance between now an the count down date
-						    var distance = now - countDownDate.getTime();
-						    // Time calculations for days, hours, minutes and seconds
-						    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-						    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-						    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-						    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-						    // Output the result in an element with id="demo"
-						    document.getElementById("demo").innerHTML = "Days without contact from mr. brawrxD: &nbsp;" + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-						}, 1000);
+						<script type="text/javascript">
+							// JavaScript program to illustrate
+							// calculation of no. of days between two date
+							var today = new Date();
+							var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+							// To set two dates to two variables
+							var date1 = new Date("07/28/2020");
+							var date2 = new Date(date);
+
+							// To calculate the time difference of two dates
+							var Difference_In_Time = date2.getTime() - date1.getTime();
+
+							// To calculate the no. of days between two dates
+							var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+
+							//To display the final no. of days (result)
+							document.write("<br>Total number of days without mr. brawr contact: "+Difference_In_Days);
 						</script>
 						<p id="demo"></p>
 					</div>
